@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <app-carousel></app-carousel>
+<div class="container mt-3 mb-3">
+    <div class="row pop-coner">
+        <ul class="nav navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    Popular
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <!-- left-side -->
+        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 h-100 p-3"  >
+            <div class="sub-col" *ngIf="topView">
+                <a routerLink="view-detail/{{topView.slug}}" class="nav-link">
+                    <div class="image" >
+                        <img src="{{topView.thumbnail}}" alt="" width="300" height="300">
+                    </div>
+        
+                    <div class="product-detail mt-2 p-1">
+                        <h6>{{topView.name_en}}</h6>
+                        <strong class="text-decoration-line-through text-danger fst-italic">${{topView.pre_price}} </strong>
+                        <strong> ${{topView.unit_price}} </strong>
+                        <strong class="bg-warning fst-italic rounded">-{{topView.percentage}}%</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- right-side -->
+        <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+              <div class="row scroll">
+                <div class="col m-1 p-1 rounded" *ngFor="let item of products">
+                    <a routerLink="view-detail/{{item.slug}}" class="nav-link">
+                        <div class="image">
+                            <img src="{{item.thumbnail}}" alt="" width="150" height="150">
+                        </div>
+            
+                        <div class="product-detail mt-2">
+                            <h6>{{item.name_en}}</h6>
+                            <strong class="text-decoration-line-through text-danger fst-italic">${{item.pre_price}}</strong>
+                            <strong> ${{item.unit_price}}</strong>&nbsp;
+                            <strong class="bg-warning fst-italic rounded">-{{item.percentage}}%</strong>
+                        </div>
+                    </a>
+                </div>
+              </div>
+                
+            </div>
+         
+     </div>
+</div>
+<app-recnt-product></app-recnt-product>
+
+<app-all-products></app-all-products>
+
+</body>
+</html>

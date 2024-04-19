@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" >
+            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6 col-sm-6 mt-3" *ngFor="let item of relatedItem">
+                <div class="sub-col p-3" >
+                    <a routerLink="view-detail/{{item.slug}}" class="nav-link" >
+                        <div class="image">
+                            <img src="{{item.thumbnail}}" alt="">
+                        </div>
+        
+                        <div class="product-detail mt-2 ">
+                            <h6>{{item.name_en}}</h6>
+                            <small class="text-decoration-line-through text-danger fst-italic">${{item.pre_price}}</small>
+                            <small> ${{item.unit_price}}</small>&nbsp;
+                            <strong class="bg-warning fst-italic rounded">-{{item.percentage}}%</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

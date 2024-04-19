@@ -1,0 +1,54 @@
+<div class="container mt-3 ">
+    <form [formGroup]="signUpForm" class="form-control p-" (ngSubmit)="signUp(signUpForm.value)">
+  
+            <label for="">A customer or A vendor?</label>
+            <div class="form-check mt-3">
+                <input type="radio" class="form-check-input" id="radio1" formControlName="status" value="customer" checked> A customer
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio2" formControlName="status" value="seller"> A Seller
+              </div>
+   
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Username</label>
+            <input formControlName="username" type="text" name="username" class="form-control" aria-describedby="emailHelp" required>
+            <!-- alert message -->
+            <div class="alert alert-danger" *ngIf="signUpData['username'].errors && signUpData['username'].errors['required'] && signUpData['username'].touched" >Username is required.</div>
+            <div class="alert alert-danger" *ngIf="signUpData['username'].errors && signUpData['username'].errors['minlength']" >Username should be 5 characters.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input formControlName="email" type="email" name="email" class="form-control" aria-describedby="emailHelp" required>
+            <!-- alert message -->
+                <div class="alert alert-danger" *ngIf="signUpData['email'].errors && signUpData['email'].errors['email']" >Email is invalid.</div>
+                <div class="alert alert-danger"  *ngIf="signUpData['email'].errors && signUpData['email'].errors['required'] && signUpData['email'].touched"  >Email is required.</div>
+          
+        </div>
+    
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input formControlName="password" type="password" name="password" class="form-control" required>
+            <div class="alert alert-danger"  *ngIf="signUpData['password'].errors && signUpData['password'].errors['required'] && signUpData['password'].touched"  >Email is required.</div>
+            <div class="alert alert-danger" *ngIf="signUpData['password'].errors && signUpData['password'].errors['pattern'] && 
+            signUpData['password'].errors && signUpData['password'].errors['minlength']"
+            >Password should have minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter and 1 number.
+        </div>
+           
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+            <input formControlName="confirmPassword" type="password" name="confirm-password" class="form-control" required>
+           <!-- alert message -->
+           <div class="alert alert-danger" *ngIf="signUpData['confirmPassword'].errors && signUpData['confirmPassword'].errors['mismatch'] && signUpData['confirmPassword'].touched">Password does not match</div>
+        </div>
+
+        <div class="footer mb-3"> 
+            <label for="">Have an account?<a routerLink=""> Sign In</a></label>
+        </div>
+
+        <button type="submit" class="btn btn-success" [disabled]="!signUpForm.valid">Submit</button>
+        <button type="button" class="btn btn-danger m-2">Cancel</button>
+    </form>
+</div>

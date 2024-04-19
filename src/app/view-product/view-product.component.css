@@ -1,0 +1,11 @@
+table{
+    table-layout: fixed;
+}
+
+.box-table{
+    box-shadow: inset gray 0px 0px 60px -12px; 
+}
+tr{
+    color: aliceblue;
+    height: 40px;
+}

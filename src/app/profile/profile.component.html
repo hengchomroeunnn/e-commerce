@@ -1,0 +1,107 @@
+<div class="container mt-3">
+    <div class="row bg-light rounded" style="box-shadow: 0px 0.5px 4px rgb(177, 175, 175);">
+        <div class="col-sm-12 col-lg-4 p-2 text-center">
+            <img src="assets/images/profile.png" alt="" width="90px" height="90px" style="border-radius: 50%;"><br>
+            <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#profileModal">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="19.5" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H322.8c-3.1-8.8-3.7-18.4-1.4-27.8l15-60.1c2.8-11.3 8.6-21.5 16.8-29.7l40.3-40.3c-32.1-31-75.7-50.1-123.9-50.1H178.3zm435.5-68.3c-15.6-15.6-40.9-15.6-56.6 0l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4zM375.9 417c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L576.1 358.7l-71-71L375.9 417z"/></svg>  Change Info</button>
+        </div>
+        <div class="col-sm-12 col-lg-8 ">
+            <table class="table table-striped table-hover mt-3">
+                <tbody>
+                    <tr>
+                        <td class="text-start">ID</td>
+                    </tr>
+                    <tr>
+                        <td class="text-start">Username</td>
+                    </tr>
+                   <tr>
+                    <td class="text-start">Email address</td>
+                   </tr>
+                   <tr>
+                     <td class="text-start">Gender</td>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row product-htr mt-3 rounded">
+        <div class="pop-coner">
+            <ul class="nav navbar">
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                       Order History
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- list products history -->
+        <table class="table table-striped table-hover">
+           <tbody>
+            <tr>
+                <td><img src="assets/images/clothes2.jpg" alt="" width="120px" height="120px"></td>
+                <td>
+                    <h5>title</h5>
+                    <p>total: XXX$</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt esse minima eaque aspernatur itaque, et est numquam nobis laborum, voluptates culpa voluptatum quibusdam vitae accusantium maxime neque velit explicabo commodi.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/clothes2.jpg" alt="" width="120px" height="120px"></td>
+                <td>
+                    <h5>title</h5>
+                    <p>total: XXX$</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt esse minima eaque aspernatur itaque, et est numquam nobis laborum, voluptates culpa voluptatum quibusdam vitae accusantium maxime neque velit explicabo commodi.</p>
+                </td>
+            </tr>
+           </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- <div class="modal" id="profileModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h4 class="modal-title">Update Personal Information</h4>
+          <a type="button" class="btn-close" data-bs-dismiss="modal"></a>
+        </div>
+  
+      
+        <div class="modal-body">
+        <form class="form-control" [formGroup]="updateInfo" (ngSubmit)="openUpdate()">
+            <div class="container">
+        
+                <input 
+                formControlName="username" 
+                class="form-control mt-3" 
+                type="text" 
+                placeholder="New username"
+                [value]="getData.username"
+                name="username" 
+                required>
+        
+        
+                <select formControlName="gender" name="Gender" id="" class="form-control mt-3">
+                    <option [value]="'female'" [selected]="getData.gender === 'female'">Female</option>
+                    <option [value]="'male'" [selected]="getData.gender === 'male'">Male</option>
+                </select>
+        
+                <input 
+                type="file" 
+                class="form-control mt-3">
+        
+            </div>
+        </form>
+        </div>
+  
+       
+        <div class="footer mb-3 pe-3 ps-3">
+            <button type="submit" class="btn btn-success">Save change</button>
+            <button type="button" class="btn btn-danger ms-1">close</button>
+        </div>
+      </div>
+    </div>
+  </div> -->

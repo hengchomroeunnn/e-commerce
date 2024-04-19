@@ -1,0 +1,36 @@
+<table class="table table-hover table-success">
+    <thead>
+      <tr style="height: 50px;">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Thumbnail</th>
+          <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of products">
+          <td>{{item.id}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.quantity}}</td>
+          <td>{{item.price}}</td>
+          <td>{{item.description}}</td>
+          <td>
+              <button type="button" class="btn btn-success btn-sm ">Edit</button>
+              <button type="button" class="btn btn-danger btn-sm ms-1">Delete</button>
+          </td>
+      </tr>
+      <tr>
+          <td>002</td>
+          <td>Banana</td>
+          <td>10</td>
+          <td>$5</td>
+          <td>abc</td>
+          <td>
+              <button type="button" class="btn btn-success btn-sm ">Edit</button>
+              <button type="button" class="btn btn-danger btn-sm ms-1">Delete</button>
+          </td>
+      </tr>
+    </tbody>
+    </table>

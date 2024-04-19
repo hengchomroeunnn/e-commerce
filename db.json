@@ -1,0 +1,448 @@
+{
+  "register": [
+    {
+      "id": "f934",
+      "status": "seller",
+      "username": "Malaa",
+      "email": "mala@gmail.com",
+      "password": "Mala123!@#",
+      "confirmPassword": "Mala123!@#"
+    },
+    {
+      "id": "f011",
+      "status": "customer",
+      "username": "soksan",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#",
+      "confirmPassword": "San123!@#"
+    },
+    {
+      "id": "d290",
+      "status": "customer",
+      "username": "soksann",
+      "email": "soksann@gmail.com",
+      "password": "San123!@#",
+      "confirmPassword": "San123!@#"
+    },
+    {
+      "id": "1405",
+      "status": "seller",
+      "username": "dalyn",
+      "email": "dalyn@gmail.com",
+      "password": "Lyn123!@#",
+      "confirmPassword": "Lyn123!@#"
+    },
+    {
+      "id": "22cb",
+      "status": "seller",
+      "username": "Sreyleangthong",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#",
+      "confirmPassword": "Leang123!@#"
+    },
+    {
+      "id": "ca2a",
+      "status": "customer",
+      "username": "gechleang",
+      "email": "gechleang123@gmail.com",
+      "password": "Gech098)(*",
+      "confirmPassword": "Gech098)(*"
+    },
+    {
+      "id": "e14c",
+      "status": "customer",
+      "username": "kongkea",
+      "email": "kongkea@gmail.com",
+      "password": "Kea123!@#",
+      "confirmPassword": "Kea123!@#"
+    },
+    {
+      "id": "23a2",
+      "status": "seller",
+      "username": "gechleang",
+      "email": "gechleang@gmail.com",
+      "password": "Gech123!@#",
+      "confirmPassword": "Gech123!@#"
+    },
+    {
+      "id": "4b74",
+      "status": "seller",
+      "username": "kolyn",
+      "email": "kolyn@gmail.com",
+      "password": "123Kolyn!@#",
+      "confirmPassword": "123Kolyn!@#"
+    },
+    {
+      "id": "186c",
+      "status": "customer",
+      "username": "takoma",
+      "email": "takoma@gmail.com",
+      "password": "Takoma123!@#",
+      "confirmPassword": "Takoma123!@#"
+    },
+    {
+      "id": "9152",
+      "status": "seller",
+      "username": "sokay",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#",
+      "confirmPassword": "Sokay123!@#"
+    }
+  ],
+  "login": [
+    {
+      "id": "7cdf",
+      "email": "gechleang@gmail.com",
+      "password": "Gech123!@#"
+    },
+    {
+      "id": "4c2f",
+      "email": "gechleang@gmail.com",
+      "password": "Gech123!@#"
+    },
+    {
+      "id": "589a",
+      "email": "gechleang@gmail.com",
+      "password": "Gech123!@#"
+    },
+    {
+      "id": "b2e9",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "15ef",
+      "status": "A customer",
+      "username": "sok san",
+      "email": "soksan@gmail.com",
+      "password": "123",
+      "repeat password": "123"
+    },
+    {
+      "id": "75ca",
+      "email": "kolyn@gmail.com",
+      "password": "123Kolyn!@#"
+    },
+    {
+      "id": "fdb2",
+      "email": "kolyn@gmail.com",
+      "password": "123Kolyn!@#"
+    },
+    {
+      "id": "0481",
+      "email": "kolyn@gmail.com",
+      "password": "123Kolyn!@#"
+    },
+    {
+      "id": "2995",
+      "email": "kolyn@gmail.com",
+      "password": "123Kolyn!@#"
+    },
+    {
+      "id": "eb95",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "eabd",
+      "email": "takoma@gmail.com",
+      "password": "Takoma123!@#"
+    },
+    {
+      "id": "8722",
+      "email": "takoma@gmail.com",
+      "password": "Takoma123!@#"
+    },
+    {
+      "id": "a5a0",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#"
+    },
+    {
+      "id": "b305",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#"
+    },
+    {
+      "id": "febb",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#"
+    },
+    {
+      "id": "0f1f",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#"
+    },
+    {
+      "id": "eb31",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "e306",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "90a2",
+      "email": "sokay@gmail.com",
+      "password": "Sokay123!@#"
+    },
+    {
+      "id": "8315",
+      "email": "soksann@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "4e91",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "ca39",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "e623",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "76e9",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "3a08",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "4f0b",
+      "email": "gechleang@gmail.com",
+      "password": "Gech123!@#"
+    },
+    {
+      "id": "698f",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "1df0",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "7b55",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "e1a7",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "c49d",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "1d8d",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "2e21",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "cd6f",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "606a",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "b31a",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "587d",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "96fc",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "bf28",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "16dd",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "7530",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "9e6a",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "f99e",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "3f15",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "396a",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "77b3",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "0499",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "362d",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "aa11",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "29e1",
+      "email": "soksan@gmail.com",
+      "password": "San123!@#"
+    },
+    {
+      "id": "1c17",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "0360",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "173c",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "5553",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "62c1",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "c457",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "4833",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "46c9",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "d5aa",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    }
+  ],
+  "products": [
+    {
+      "title": " landhdf",
+      "description": "bahndrfajdlnfjdfn",
+      "price": "12",
+      "category": "cothes",
+      "image": "clothes.jpg",
+      "id": "46f3"
+    },
+    {
+      "id": "dfe4",
+      "title": "laptop",
+      "description": "buy one get one"
+    },
+    {
+      "id": "0767",
+      "title": "laptop",
+      "description": "buy one get one"
+    },
+    {
+      "id": "dda8",
+      "title": "laptop",
+      "description": "buy one get one"
+    },
+    {
+      "id": "ec10",
+      "title": "kmeng",
+      "description": "buy one get one",
+      "thumbnail": "C:\\fakepath\\kbalkhoch.jpg",
+      "banner": "C:\\fakepath\\kbalkhoch1.jpg"
+    },
+    {
+      "id": "f621",
+      "title": "phone",
+      "description": "buy one get one",
+      "thumbnail": "C:\\fakepath\\010Attached_to_Detached_Succession.1346299082.jpg",
+      "banner": "C:\\fakepath\\68019144_1_image.jpg"
+    },
+    {
+      "id": "cb95",
+      "title": "jfgorij",
+      "description": "gwrgrth",
+      "category": "clothes",
+      "thumbnail": "C:\\fakepath\\kbalkhoch.jpg",
+      "banner": "C:\\fakepath\\kbalkhoch1.jpg"
+    },
+    {
+      "id": "eba1",
+      "title": "watch",
+      "description": "",
+      "category": "electronic",
+      "price": 250,
+      "thumbnail": "C:\\fakepath\\68019144_1_image.jpg",
+      "banner": "C:\\fakepath\\68019144_1_image.jpg"
+    }
+  ]
+}

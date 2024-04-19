@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+.container{
+    box-shadow: 2px 0.5px 4px rgb(177, 175, 175);
+    width: 80%;
+}
+*{
+    font-family: Battambang;
+}
+.pop-coner{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(251, 202, 26);
+    align-items: center;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+    box-shadow: 0px 0.5px 4px rgb(177, 175, 175);
+}
+.pop-coner ul li a{
+    color: rgb(75, 78, 81);
+    font-weight: bold;
+}
+.sub-col, .a1{
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgb(222, 222, 222) solid 1px;
+}
+.image{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform .2s;
+}
+.image img{
+    object-fit: cover;
+}
+.image img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.scroll {
+    padding: 4px;
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: start;
+}
+.item{
+    display: inline-block;
+}
+
+.product-detail h6{
+    font-size: 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+strong{
+    font-size: 12px;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    font-size: 12px;
+    color: #252525;
+}
+.product-price{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.sticker{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+.col{
+    border: rgb(222, 222, 222) solid 1px;
+}
+.col:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+}
+
+h6{
+    font-size: 12px;
+}
+
+.sub-col{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: rgb(222, 222, 222) solid 1px;
+}
+.sub-col:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.product-detail h6{
+    font-size: 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-align: start;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.image{
+    width: 100%;
+    height:200px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: transform .2s;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

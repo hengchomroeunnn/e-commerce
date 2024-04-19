@@ -1,0 +1,18 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-6 col-sm-6 mt-3" *ngFor="let item of allProducts">
+            <div class="sub-col ps-2 pe-2 pt-2" >
+                <a routerLink="view-detail/{{item.slug}}" class="nav-link" >
+                    <div class="image">
+                        <img src="{{item.thumbnail}}" alt="">
+                    </div>
+    
+                    <div class="product-detail ps-2 pe-2 pt-2 ">
+                        <strong>{{item.name_en}}</strong>
+                        <h6>${{item.unit_price}}</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

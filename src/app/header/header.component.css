@@ -1,0 +1,30 @@
+*{
+    font-size: small;
+}
+nav{
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark-blue-color)
+}
+.navbar-brand img{
+    border-radius: 50%;
+}
+ul li a{
+    color: rgb(82, 76, 76);
+    font-weight: bold;
+}
+.btn-group a img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.footer{
+    justify-content: space-between;
+    display: flex;
+    font-style: italic;
+    font-size: small;
+}

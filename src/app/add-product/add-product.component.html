@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container shadow p-3">
+    <form method="post" [formGroup]="addProductForm" (ngSubmit)="openAdd(addProductForm.value)" enctype="multipart/form-data">
+        <div class="form-group mt-3">
+            <strong class="required">Title</strong>
+            <input type="text" name="title" formControlName="title" class="form-control mt-1">
+        </div>
+        <div class="alert alert-danger" *ngIf="addProduct['title'].errors && addProduct['title'].touched && addProduct['title'].errors && addProduct['title'].errors['required']">
+            Title is required.
+        </div>
+
+
+      <div class="form-group mt-3">
+            <strong class="required">Category</strong>
+            <select name="category" class="form-select mt-1" formControlName="category">
+                <option value="clothes">Clothes</option>
+                <option value="accessary">Accessary </option>
+                <option value="furniture">Furniture</option>
+                <option value="electronic">Electronic</option>
+                <option value="homedecor">Home decoration</option>
+                <option value="vegetable">Agriculture and Process Product</option>
+            </select>
+        </div>
+        <div class="form-group mt-3">
+            <strong class="required">Price</strong>
+            <input type="number" name="price" formControlName="price" class="form-control mt-1">
+        </div>
+        <div class="alert alert-danger" *ngIf="addProduct['price'].errors && addProduct['price'].touched && addProduct['price'].errors && addProduct['price'].errors['required']">
+            Price is required.
+        </div>
+       
+        <div class="form-group mt-3">
+            <strong>Thumbnail</strong>
+            <input name="thumbnail" type="file" class="form-control mt-1 " formControlName="thumbnail">
+        </div>
+        <div class="form-group mt-3">
+            <strong>Banner</strong>
+            <input name="banner" type="file" class="form-control mt-1" formControlName="banner">
+        </div>
+        <div class="form-group mt-3 ">
+            <strong class="required">Description</strong>
+            <textarea name="description" class="form-control mt-1" formControlName="description"></textarea>
+        </div> 
+        <div class="alert alert-danger" *ngIf="addProduct['description'].errors && addProduct['description'].touched && addProduct['description'].errors && addProduct['description'].errors['required']">
+            Description is required.
+        </div>
+        <div class="form-group mt-3">
+            <button type="submit" name="accept_add" class="btn btn-primary">Add New</button>
+            <button type="submit" class="btn btn-danger ms-1">Cancel</button>
+        </div>
+    </form>
+   </div>
+</body>
+</html>

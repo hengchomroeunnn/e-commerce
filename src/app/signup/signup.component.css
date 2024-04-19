@@ -1,0 +1,7 @@
+.container{
+    filter: drop-shadow(0px 1px 2px #656161);
+}
+.footer{
+    font-size: small;
+    font-style: italic;
+}
