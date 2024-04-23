@@ -91,6 +91,33 @@ export class ServiceComponent {
     return this.productId.asObservable();
   }
 
+  getOrderHistory(){
+    const staticData = [
+      {
+        "id": 1,
+        "total_price":25.00,
+        "product_title":" Men clothes",
+        "product_description":"The most popular men clothes in Cambodia.",
+        "thumbnail":"assets/images/clothes2.jpg"
+      },
+      {
+        "id": 2, 
+        "total_price":12.00,
+        "product_title":" Men clothes",
+        "product_description":"The most popular men clothes in Cambodia.",
+        "thumbnail":"assets/images/clothes1.jpg"
+      },
+      {
+        "id": 3, 
+        "total_price":15.00,
+        "product_title":" Men clothes",
+        "product_description":"The most popular men clothes in Cambodia.",
+        "thumbnail":"assets/images/clothes2.jpg"
+      },
+    ]  ;
+    return staticData;
+  }
+
   logout(){
     localStorage.removeItem('user');
     this.router.navigate([''])

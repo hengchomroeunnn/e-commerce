@@ -21,14 +21,18 @@ import { HeaderComponent } from '../header/header.component';
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent implements OnInit {
-  userData: any;
+  historyData: any[] | undefined;
 
-  constructor(private data: ServiceComponent, private route: Router){}
+  constructor(private service: ServiceComponent, private route: Router){}
 
   ngOnInit(): void{
-   
+    this.getHistoryData();
   }
-
+  
+  getHistoryData(){
+    this.historyData=this.service.getOrderHistory();
+    console.log(this.historyData)
+  }
 
 }
 

@@ -87,6 +87,14 @@
       "email": "sokay@gmail.com",
       "password": "Sokay123!@#",
       "confirmPassword": "Sokay123!@#"
+    },
+    {
+      "id": "31d2",
+      "status": "customer",
+      "username": "sokimlang",
+      "email": "sokimlang@gmail.com",
+      "password": "Sokimlang123!@#",
+      "confirmPassword": "Sokimlang123!@#"
     }
   ],
   "login": [
@@ -385,6 +393,21 @@
     },
     {
       "id": "d5aa",
+      "email": "sreyleang@gmail.com",
+      "password": "Leang123!@#"
+    },
+    {
+      "id": "5223",
+      "email": "kongkea@gmail.com",
+      "password": "Kea123!@#"
+    },
+    {
+      "id": "dfc9",
+      "email": "sokimlang@gmail.com",
+      "password": "Sokimlang123!@#"
+    },
+    {
+      "id": "d86e",
       "email": "sreyleang@gmail.com",
       "password": "Leang123!@#"
     }
